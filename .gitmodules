@@ -1,0 +1,6 @@
+[submodule "microsservices/moderation-service"]
+	path = microsservices/moderation-service
+	url = https://github.com/ricardoguntzell/guntz-guntzcomments-moderation-service.git
+[submodule "microsservices/comment-service"]
+	path = microsservices/comment-service
+	url = https://github.com/ricardoguntzell/guntz-guntzcomments-comment-service.git
