@@ -1,7 +1,7 @@
 # Guntz Comments
 
-Guntz Comments é um microsserviço de criação de comentários construído com Spring Boot. <br>
-Esse microsserviço exibe cometários com recurso de páginação, além de pesquisa individual por ID, <br>
+Guntz Comments é uma solução de microsserviços para gestão de comentários, construído com Spring Boot. <br>
+Comment-Service, esse microsserviço exibe cometários com recurso de páginação, além de pesquisa individual por ID, <br>
 Válida e armazena apenas comentários aprovados através de comunicação síncrona com outro microsserviço (Guntz Moderation), <br>
 Que por sua vez é responsável por toda inteligência de identificar palavras de baixo calão, ou termos utilizados em discurso de ódio.<br>
 Uma vez identificado que se trata de uma palavra proíbida, ele reprova o comentário.
